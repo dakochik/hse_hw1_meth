@@ -1,10 +1,12 @@
 # 2 ПГ, ДЗ 1
 
+[Ссылка на google colab](https://colab.research.google.com/drive/1lIA81hE9UOciyksFWkuPfe735DQDcUq7?usp=sharing)
+
 ## 1. Анализ QC прочтений
 Отчет находится в директории reports.
 Ответ на вопрос: мы можем наблюдать значительное преобладание GC нуклеотидов в сравнении с остальными (per sequence GC content). Учитывая то, что для qc отчета нами был выбра образец, для которого, по нашим предположениям, увеличивается уровень метилирования, наблюдаемая картина подтверждает наши предположения.  
   
-## 2. 
+## 2. Все остальное
 ### 1) Количество ридов, закартированных на конкретные участки для каждого образца:  
 | Образец   |11347700-11367700|40185800-40195800|
 |:---------:|:---------------:|:---------------:|
@@ -27,9 +29,14 @@ Done
 ### 4) Отчет
 Отчеты также находятся в директории reports.  
 Скриншот:  
-![image](https://user-images.githubusercontent.com/55440084/154321806-ecdb0b88-01d9-4aab-a85a-29577ef5c259.png)
-![image](https://user-images.githubusercontent.com/55440084/154321910-5d22383f-a77a-4b34-b87c-a10cf1275d32.png)
-![image](https://user-images.githubusercontent.com/55440084/154321964-a3454593-802e-4f6f-b574-77d510393b7f.png)
+Epiblast:  
+![image](https://user-images.githubusercontent.com/55440084/154321806-ecdb0b88-01d9-4aab-a85a-29577ef5c259.png)  
+
+8Cell:  
+![image](https://user-images.githubusercontent.com/55440084/154321910-5d22383f-a77a-4b34-b87c-a10cf1275d32.png)  
+
+ICM:  
+![image](https://user-images.githubusercontent.com/55440084/154321964-a3454593-802e-4f6f-b574-77d510393b7f.png)  
 
 Описание: из документации сладует, что графики показывают долю метелированиях на всех позициях хромосомы. Можно пронаблюдать, что больше всего метилирования происходит в образце Epiblast, значительно меньше в 8Cell, и совсем мало в ICM.
   
@@ -66,4 +73,6 @@ for name in names:
 ![meth_lvl](https://user-images.githubusercontent.com/55440084/154295650-656d4bc3-a251-4615-8969-63da365a51e5.png)
    
 Уровень покрытия:  
-![cov](https://user-images.githubusercontent.com/55440084/154295680-f7def500-2849-4409-870a-ea3286d0c3f5.png)
+![cov](https://user-images.githubusercontent.com/55440084/154295680-f7def500-2849-4409-870a-ea3286d0c3f5.png)  
+
+Рассмотрел такой участок хромосомы т.к. при больших размерах изображения теряли свою наглядность
